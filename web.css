@@ -1,0 +1,173 @@
+/* تنسيق الخلفية والنص الأساسي */
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* تنسيق العناوين */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2.8em;
+    margin-top: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h2, h3 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 8px;
+}
+
+h3 {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+/* تصميم الروابط */
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+/* تنسيق القوائم */
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+    margin-bottom: 25px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+/* تنسيق الفقرات */
+pre {
+    white-space: pre-wrap;
+    font-size: 1em;
+    color: #555;
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    border-left: 5px solid #4a90e2;
+    border-radius: 8px;
+    font-style: italic;
+    line-height: 1.6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق الصور */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+/* تصميم الأزرار */
+input[type="submit"] {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"]:hover {
+    background-color: #357ABD;
+    transform: translateY(-2px);
+}
+
+/* تنسيق منطقة النصوص */
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: vertical;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease;
+}
+
+textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* تصميم النموذج */
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* تنسيق قسم الروابط الرئيسية */
+nav {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav a {
+    font-size: 1.2em;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+/* تحسينات بصرية إضافية */
+nav a:hover, h2:hover {
+    color: #357ABD;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
